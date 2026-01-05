@@ -228,7 +228,6 @@ void play() {
             Reversi::place(board, turn, best);
         }
         turn = Reversi::flipped(turn);
-        cout << "\e[2J" << endl;
         for (int y=0;y<SIZE;y++) {
             for (int x=0;x<SIZE;x++) {
                 if (board[y][x] == Reversi::Disc::Empty) {
