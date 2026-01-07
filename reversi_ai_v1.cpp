@@ -256,7 +256,7 @@ void play() {
     if (blackCount < whiteCount) {
         cout << "Result: White wins (" << (whiteCount + emptyCount) << ":" << blackCount << ")" << endl;
     } else if (whiteCount < blackCount) {
-        cout << "Result: Black wins (" << (whiteCount + emptyCount) << ":" << blackCount << ")" << endl;
+        cout << "Result: Black wins (" << (blackCount + emptyCount) << ":" << whiteCount << ")" << endl;
     } else {
         cout << "Result: Tie (" << whiteCount << ":" << blackCount << ")" << endl;
     }
